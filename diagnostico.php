@@ -28,13 +28,13 @@
       <div>
         <section id="icons-list" class="padding-t100 text-center">
           <div class="row">
-            <div class="col-md-12 lupa page-icon"><div class="icon img-contain"></div><div class="title">Realización y gestión de estudios ambientales</div></div>
+            <div class="col-md-12 arboles page-icon"><div class="icon img-contain"></div><div class="title">Diagnóstico y manejo de arbolado urbano</div></div>
           </div>
         </section>
       </div>
 
       <div class="margin-t50">
-          <p class="page-desc subtitle text-left">De acuerdo a la LGEEPA, en todas sus modalidades (Informes Preventivos de Impacto Ambiental, Mani-festaciones de Impacto Ambiental, Estudios Técni-cos Justificativos, Cambios de Uso de Suelo, etc.), a nivel  regional,  municipal,  estatal  y  federal.  Así mismo  ofrecemos  seguimientos  ambientales  en cualquiera de las dependencias a las que aplique la actividad en cuestión</p>
+          <p class="page-desc subtitle text-left">Realización de estudios de arbolado urbano para mediciones dasométricas, diagnóstico fitosanitario de  arbolado,  diagnóstico  de  requerimientos  de manejo, evaluación de riesgo de arbolado, cálculo de servicios ambientales y elaboración de mapas temáticos  de  resultados  del  censo.  Así  mismo  se realizan  actividades de gestión de trámites para el manejo de arbolado en casas habitacionales parti-culares  o  para  obras  de  construcción.  Contamos además  con  equipo  y  personal  operativo  para manejo de arbolado (podas, derribos y control fito-sanitario).</p>
       </div>
 
       <div id="contacto" class="row">
@@ -81,9 +81,7 @@
   </div>
 
 
-  <div class="img-right" style="background-image:url('./img/realizacion-estudios-ambientales.jpg');">
-    right img
-  </div>
+  <div class="img-right" style="background-image:url('./img/manejo-de-arbolado-urbano.jpg');"></div>
 
 </div>
 

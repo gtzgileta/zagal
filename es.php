@@ -4,14 +4,17 @@
       <div class="logo"></div>
 
       <ul class="main-nav nav-right clearfix">
-          <li class="selected"><a href="#preamble" class="hidden-sm">Inicio</a></li>
-          <li><a href="#servicios" class="hidden-sm">Servicios</a></li>
-          <li><a href="#nosotros" class="hidden-sm">Nosotros</a></li>
-          <li><a href="#contacto" class="hidden-sm">Contacto</a></li>
+          <li><a href="#preamble" class="hidden-sm" onclick="closeBu()">Inicio</a></li>
+          <li><a href="#servicios" class="hidden-sm" onclick="closeBu()">Servicios</a></li>
+          <li><a href="#nosotros" class="hidden-sm" onclick="closeBu()">Nosotros</a></li>
+          <li><a href="#contacto" class="hidden-sm" onclick="closeBu()">Contacto</a></li>
       </ul>
 
       <div class="bu" onclick="bu()"><span></span><span></span><span></span><span></span></div>
-      <script type="text/javascript">var bu=()=>{document.querySelector('.main-nav').classList.toggle('show');document.querySelector('.bu').classList.toggle('open')}</script>
+      <script type="text/javascript">
+      var bu=()=>{document.querySelector('.main-nav').classList.toggle('show');document.querySelector('.bu').classList.toggle('open');}
+      var closeBu=()=>{document.querySelector('.main-nav').classList.remove('show');document.querySelector('.bu').classList.remove('open');}
+      </script>
   </div>
 </div>
 
@@ -43,9 +46,9 @@
     <section id="icons-list" class="container padding-t100 text-center">
       <div class="row">
         <a href="estudios-ambientales.php"><div class="col-md-25 lupa"><div class="icon img-contain"></div><div class="title">Realización y gestión de estudios ambientales</div></div></a>
-        <a href="estudios-ambientales.php"><div class="col-md-25 arboles"><div class="icon img-contain"></div><div class="title">Diagnóstico y manejo de arbolado urbano</div></div></a>
-        <a href="estudios-ambientales.php"><div class="col-md-25 residuo"><div class="icon img-contain"></div><div class="title">Gestión integral de residuos</div></div></a>
-        <a href="estudios-ambientales.php"><div class="col-md-25 checklist"><div class="icon img-contain"></div><div class="title">Auditoría ambiental y asesoría</div></div></a>
+        <a href="diagnostico.php"><div class="col-md-25 arboles"><div class="icon img-contain"></div><div class="title">Diagnóstico y manejo de arbolado urbano</div></div></a>
+        <a href="gestion-residuos.php"><div class="col-md-25 residuo"><div class="icon img-contain"></div><div class="title">Gestión integral de residuos</div></div></a>
+        <a href="auditoria.php"><div class="col-md-25 checklist"><div class="icon img-contain"></div><div class="title">Auditoría ambiental y asesoría</div></div></a>
         <a href="estudios-ambientales.php"><div class="col-md-25 tierra"><div class="icon img-contain"></div><div class="title">Asistencia técnica de proyectos agropecuarios</div></div></a>
       </div>
     </section>

@@ -10,7 +10,7 @@
       <div class="logo"></div>
 
       <ul class="main-nav nav-right clearfix">
-      <li><a href="index.php#preamble" class="hidden-sm">Inicio</a></li>
+        <li><a href="index.php#preamble" class="hidden-sm">Inicio</a></li>
           <li class="selected"><a href="index.php#servicios" class="hidden-sm">Servicios</a></li>
           <li><a href="index.php#nosotros" class="hidden-sm">Nosotros</a></li>
           <li><a href="index.php#contacto" class="hidden-sm">Contacto</a></li>
@@ -28,13 +28,13 @@
       <div>
         <section id="icons-list" class="padding-t100 text-center">
           <div class="row">
-            <div class="col-md-12 lupa page-icon"><div class="icon img-contain"></div><div class="title">Realización y gestión de estudios ambientales</div></div>
+            <div class="col-md-12 checklist page-icon"><div class="icon img-contain"></div><div class="title">Auditoría ambiental y asesoría</div></div>
           </div>
         </section>
       </div>
 
       <div class="margin-t50">
-          <p class="page-desc subtitle text-left">De acuerdo a la LGEEPA, en todas sus modalidades (Informes Preventivos de Impacto Ambiental, Mani-festaciones de Impacto Ambiental, Estudios Técni-cos Justificativos, Cambios de Uso de Suelo, etc.), a nivel  regional,  municipal,  estatal  y  federal.  Así mismo  ofrecemos  seguimientos  ambientales  en cualquiera de las dependencias a las que aplique la actividad en cuestión</p>
+          <p class="page-desc subtitle text-left">Nuestra empresa está vinculada directamente con las regulaciones legales y normativas que actual-mente se requieren para evitar al máximo las san-ciones económicas de las diferentes instancias gu-bernamentales.</p>
       </div>
 
       <div id="contacto" class="row">
@@ -81,9 +81,7 @@
   </div>
 
 
-  <div class="img-right" style="background-image:url('./img/realizacion-estudios-ambientales.jpg');">
-    right img
-  </div>
+  <div class="img-right" style="background-image:url('./img/audotoria-ambiental.jpg');"></div>
 
 </div>
 

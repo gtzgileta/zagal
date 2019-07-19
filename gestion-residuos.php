@@ -28,13 +28,13 @@
       <div>
         <section id="icons-list" class="padding-t100 text-center">
           <div class="row">
-            <div class="col-md-12 lupa page-icon"><div class="icon img-contain"></div><div class="title">Realización y gestión de estudios ambientales</div></div>
+            <div class="col-md-12 residuos page-icon"><div class="icon img-contain"></div><div class="title">Gestión integral de residuos</div></div>
           </div>
         </section>
       </div>
 
       <div class="margin-t50">
-          <p class="page-desc subtitle text-left">De acuerdo a la LGEEPA, en todas sus modalidades (Informes Preventivos de Impacto Ambiental, Mani-festaciones de Impacto Ambiental, Estudios Técni-cos Justificativos, Cambios de Uso de Suelo, etc.), a nivel  regional,  municipal,  estatal  y  federal.  Así mismo  ofrecemos  seguimientos  ambientales  en cualquiera de las dependencias a las que aplique la actividad en cuestión</p>
+          <p class="page-desc subtitle text-left">Porque estamos comprometidos con el medio ambiente en la preservación de sus recursos naturales, ofrecemos a nuestros clientes soluciones integrales y eficientes a la iniciativa privada en el manejo de sus  residuos  generados  mediante  la  implementa-ción, ejecución y seguimiento de planes de manejo, logrando que su manejo sea: Ambientalmente Efi-ciente, Tecnológicamente viable, Económicamente factible y Socialmente aceptable (Responsabilidad Social).</p>
       </div>
 
       <div id="contacto" class="row">
@@ -81,9 +81,7 @@
   </div>
 
 
-  <div class="img-right" style="background-image:url('./img/realizacion-estudios-ambientales.jpg');">
-    right img
-  </div>
+  <div class="img-right" style="background-image:url('./img/gestion-de-residuos.jpg');"></div>
 
 </div>
 

@@ -610,6 +610,12 @@ ul#breadcrumb li a:hover { text-decoration: underline }
     color: #fff; font-size: 16px; font-weight: 500;
 }
 
+@media (max-width: 500px) {
+    #preamble .logo{margin-bottom:30px !important;height: 190px !important;}
+    .scrolldownmouse {
+        bottom: -45px;
+    }
+}
 @media (min-width: 768px) {
     .equal-height > [class*='col-'] > div { padding: 60px; }
     .equal-height {
@@ -720,13 +726,26 @@ clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
 .lupa .icon{background-image:url('../img/btn/lupa.png');}
 .lupa:hover .icon{background-image:url('../img/btn/lupa-hover.png');}
 .tierra .icon{background-image:url('../img/btn/tierra.png');}
-.tierra:hover .icon{background-image:url('../btn/tierra-hover.png');}
+.tierra:hover .icon{background-image:url('../img/btn/tierra-hover.png');}
 .residuo .icon{background-image:url('../img/btn/residuo.png');}
 .residuo:hover .icon{background-image:url('../img/btn/residuo-hover.png');}
 .checklist .icon{background-image:url('../img/btn/checklist.png');}
 .checklist:hover .icon{background-image:url('../img/btn/checklist-hover.png');}
 .arboles .icon{background-image:url('../img/btn/arboles.png');}
 .arboles:hover .icon{background-image:url('../img/btn/arboles-hover.png');}
+
+@media(min-width: 991px) {
+    .page-icon {
+        display: flex; align-items: center;
+    }
+    .page-icon .icon {
+        height: 120px; width: 120px;
+    }
+    .page-icon .title {
+        max-width: 200px;
+    }
+}
+.page-desc.subtitle {max-width:inherit !important}
 
 #mision h3{ font-size:32; font-weight: 400; color:#fff;}
 #mision p{
@@ -763,7 +782,7 @@ p.subtitle { font-size: 22px; font-weight: 400; color: #777; line-height: 30px; 
 .contacto-icons .icon.usuaria{background-image:url('../img/usuaria.png');}
 
 #contacto p {
-    padding-left: 45px; font-size: 18px; font-weight: 500; color: #999; line-height: 24px; margin-bottom: 10px
+    padding-left: 170px; font-size: 18px; font-weight: 500; color: #999; line-height: 24px; margin-bottom: 10px
 }
 #contacto p span {
     width: 15px; height: 15px; display: inline-block; margin-right: 5px;
@@ -773,6 +792,8 @@ p.subtitle { font-size: 22px; font-weight: 400; color: #777; line-height: 30px; 
 #contacto p span.email {background-image: url('../img/icon/email.png')}
 #contacto p span.tel {background-image: url('../img/icon/tel.png')}
 
+@media (max-width: 768px) { #contacto p {padding-left: 130px;}}
+@media (max-width: 460px) { #contacto p {padding-left: 30px;}}
 footer {
     border-top: 2px solid #bbb;
     padding: 50px 30px;
@@ -806,4 +827,23 @@ footer p {
 @media (max-width:991px){
 .bu{display:block !important}
 .main-nav{display:none}
+}
+
+
+.img-right {
+    width: 50%;
+    position: absolute; top: 0; right:0; bottom: 0;
+    background-size: cover; background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 991px) {
+    .img-right {
+        width: 100%;
+        display:block;
+        height: 550px;
+        position: relative; top: inherit; right:inherit; bottom: inherit;
+        background-size: cover; background-position: center;
+        background-repeat: no-repeat;
+    }
 }
