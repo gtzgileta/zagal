@@ -49,7 +49,7 @@
         <a href="diagnostico.php"><div class="col-md-25 arboles"><div class="icon img-contain"></div><div class="title">Diagnóstico y manejo de arbolado urbano</div></div></a>
         <a href="gestion-residuos.php"><div class="col-md-25 residuo"><div class="icon img-contain"></div><div class="title">Gestión integral de residuos</div></div></a>
         <a href="auditoria.php"><div class="col-md-25 checklist"><div class="icon img-contain"></div><div class="title">Auditoría ambiental y asesoría</div></div></a>
-        <a href="estudios-ambientales.php"><div class="col-md-25 tierra"><div class="icon img-contain"></div><div class="title">Asistencia técnica de proyectos agropecuarios</div></div></a>
+        <a href="asistencia.php"><div class="col-md-25 tierra"><div class="icon img-contain"></div><div class="title">Asistencia técnica de proyectos agropecuarios</div></div></a>
       </div>
     </section>
   </div>

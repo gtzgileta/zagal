@@ -10,7 +10,7 @@
       <div class="logo"></div>
 
       <ul class="main-nav nav-right clearfix">
-      <li><a href="index.php#preamble" class="hidden-sm">Inicio</a></li>
+        <li><a href="index.php#preamble" class="hidden-sm">Inicio</a></li>
           <li class="selected"><a href="index.php#servicios" class="hidden-sm">Servicios</a></li>
           <li><a href="index.php#nosotros" class="hidden-sm">Nosotros</a></li>
           <li><a href="index.php#contacto" class="hidden-sm">Contacto</a></li>
@@ -29,13 +29,13 @@
         <section id="icons-list" class="padding-t100 text-center">
         <a href="index.php" class="go-back">&#60; Regresar</a>
           <div class="row">
-            <div class="col-md-12 lupa page-icon"><div class="icon img-contain"></div><div class="title">Realización y gestión de estudios ambientales</div></div>
+            <div class="col-md-12 tierra page-icon"><div class="icon img-contain"></div><div class="title">Asistencia técnica de proyectos agropecuarios</div></div>
           </div>
         </section>
       </div>
 
       <div class="margin-t50">
-          <p class="page-desc subtitle text-left">De acuerdo a la LGEEPA, en todas sus modalidades (Informes Preventivos de Impacto Ambiental, Mani-festaciones de Impacto Ambiental, Estudios Técni-cos Justificativos, Cambios de Uso de Suelo, etc.), a nivel  regional,  municipal,  estatal  y  federal.  Así mismo  ofrecemos  seguimientos  ambientales  en cualquiera de las dependencias a las que aplique la actividad en cuestión</p>
+          <p class="page-desc subtitle text-left">Lorem ipsum.</p>
       </div>
 
       <div id="contacto" class="row">
@@ -82,7 +82,7 @@
   </div>
 
 
-  <div class="img-right" style="background-image:url('./img/realizacion-estudios-ambientales.jpg');"></div>
+  <div class="img-right" style="background-image:url('./img/asesoria-en-proyectos-agropecuarios.jpg');"></div>
 
 </div>
 
