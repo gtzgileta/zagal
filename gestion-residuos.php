@@ -28,7 +28,7 @@
       <div>
         <section id="icons-list" class="padding-t100 text-center">
           <div class="row">
-            <div class="col-md-12 residuos page-icon"><div class="icon img-contain"></div><div class="title">Gestión integral de residuos</div></div>
+            <div class="col-md-12 residuo page-icon"><div class="icon img-contain"></div><div class="title">Gestión integral de residuos</div></div>
           </div>
         </section>
       </div>
