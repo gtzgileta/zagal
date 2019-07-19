@@ -27,6 +27,7 @@
     <div class="padding-30">
       <div>
         <section id="icons-list" class="padding-t100 text-center">
+        <a href="index.php" class="go-back">&#60; Regresar</a>
           <div class="row">
             <div class="col-md-12 lupa page-icon"><div class="icon img-contain"></div><div class="title">Realización y gestión de estudios ambientales</div></div>
           </div>

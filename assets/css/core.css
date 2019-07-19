@@ -734,6 +734,13 @@ clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
 .arboles .icon{background-image:url('../img/btn/arboles.png');}
 .arboles:hover .icon{background-image:url('../img/btn/arboles-hover.png');}
 
+.go-back {
+    font-size: 16px;
+    color: #777;
+    text-align: left !important;
+    display: block
+}
+
 @media(min-width: 991px) {
     .page-icon {
         display: flex; align-items: center;
