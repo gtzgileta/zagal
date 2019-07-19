@@ -11,9 +11,10 @@
       </ul>
 
       <div class="bu" onclick="bu()"><span></span><span></span><span></span><span></span></div>
+      <div class="menu-mask" onclick="closeBu()"></div>
       <script type="text/javascript">
-      var bu=()=>{document.querySelector('.main-nav').classList.toggle('show');document.querySelector('.bu').classList.toggle('open');}
-      var closeBu=()=>{document.querySelector('.main-nav').classList.remove('show');document.querySelector('.bu').classList.remove('open');}
+      var bu=()=>{document.querySelector('.main-nav').classList.toggle('show');document.querySelector('.menu-mask').classList.toggle('show');document.querySelector('.bu').classList.toggle('open');}
+      var closeBu=()=>{document.querySelector('.main-nav').classList.remove('show');document.querySelector('.bu').classList.remove('open');document.querySelector('.menu-mask').classList.remove('show');}
       </script>
   </div>
 </div>
