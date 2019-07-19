@@ -43,6 +43,8 @@
     </script>
     <!-- end: Javascript -->
 
-
+    <?php
+      include('footer.php');
+  ?>
 </body>
 </html>

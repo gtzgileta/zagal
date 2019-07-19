@@ -10,6 +10,8 @@
           <li><a href="#contacto" class="hidden-sm">Contacto</a></li>
       </ul>
 
+      <div class="bu" onclick="bu()"><span></span><span></span><span></span><span></span></div>
+      <script type="text/javascript">var bu=()=>{document.querySelector('.main-nav').classList.toggle('show');document.querySelector('.bu').classList.toggle('open')}</script>
   </div>
 </div>
 
@@ -40,11 +42,11 @@
   <div>
     <section id="icons-list" class="container padding-t100 text-center">
       <div class="row">
-        <div class="col-md-25 lupa"><div class="icon img-contain"></div><div class="title">Realización y gestión de estudios ambientales</div></div>
-        <div class="col-md-25 arboles"><div class="icon img-contain"></div><div class="title">Diagnóstico y manejo de arbolado urbano</div></div>
-        <div class="col-md-25 residuo"><div class="icon img-contain"></div><div class="title">Gestión integral de residuos</div></div>
-        <div class="col-md-25 checklist"><div class="icon img-contain"></div><div class="title">Auditoría ambiental y asesoría</div></div>
-        <div class="col-md-25 tierra"><div class="icon img-contain"></div><div class="title">Asistencia técnica de proyectos agropecuarios</div></div>
+        <a href="estudios-ambientales.php"><div class="col-md-25 lupa"><div class="icon img-contain"></div><div class="title">Realización y gestión de estudios ambientales</div></div></a>
+        <a href="estudios-ambientales.php"><div class="col-md-25 arboles"><div class="icon img-contain"></div><div class="title">Diagnóstico y manejo de arbolado urbano</div></div></a>
+        <a href="estudios-ambientales.php"><div class="col-md-25 residuo"><div class="icon img-contain"></div><div class="title">Gestión integral de residuos</div></div></a>
+        <a href="estudios-ambientales.php"><div class="col-md-25 checklist"><div class="icon img-contain"></div><div class="title">Auditoría ambiental y asesoría</div></div></a>
+        <a href="estudios-ambientales.php"><div class="col-md-25 tierra"><div class="icon img-contain"></div><div class="title">Asistencia técnica de proyectos agropecuarios</div></div></a>
       </div>
     </section>
   </div>
@@ -112,15 +114,15 @@
       <div class="padding-20">
       <div class="row margin-b50">
           <div class="col-md-5">
-          <h3 class="color-green margin-t50">Contacto</h3>
-          <p>Margil de Jesus #11<br>Colonia La Perla, 44630<br>Guadalajara, Jalisco.</p>
-          <p>331.227.2702</p>
-          <p>331.600.1800</p>
-          <p>331.600.1800</p>
-          <p>zagal.jalisco@gmail.com</p>
+          <h3 class="color-green margin-t50">CONTACTO</h3>
+          <p><span class="location"></span> Margil de Jesus #11<br>Colonia La Perla, 44630<br>Guadalajara, Jalisco.</p>
+          <p><span class="tel"></span> 331.227.2702</p>
+          <p><span class="tel"></span> 331.600.1800</p>
+          <p><span class="tel"></span> 331.600.1800</p>
+          <p><span class="email"></span> zagal.jalisco@gmail.com</p>
           </div>
           <div class="col-md-5 col-md-offset-1">
-          <h3 class="color-green margin-t50">Escríbanos</h3>
+          <h3 class="color-green margin-t50">ESCRÍBANOS</h3>
            <form class="frm-contact form-material" method="post" action="mail.php">
               <div class="row">
                 <div class="group">
